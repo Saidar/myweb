@@ -1,0 +1,324 @@
+@charset "utf-8";
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+
+.social_block{
+	margin-top: 10vh;
+	margin-right: 10px;
+	float: right;
+	display: inline;
+}
+
+
+.github a:hover {background: #191919; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.linkedin a:hover {background: #0e76a8; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+
+
+/*Fonts*/
+
+@font-face {
+	font-family: "ChocolateCandyCups";
+	src: url("fonts/ChocolateCandyCups-Medium.ttf");
+	src:
+	url("fonts/ChocolateCandyCups-Medium.woff") format("woff"),
+	url("fonts/ChocolateCandyCups-Medium.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Radicals";
+	src: url("fonts/Radicals.ttf");
+	src:
+	url("fonts/Radicals.woff") format("woff"),
+	url("fonts/Radicals.otf") format("opentype");
+}
+
+
+
+
+/*body*/
+body {
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 200;
+	background-color: #f2f2f2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+lu{
+	font-size: 25px;
+}
+
+h2{
+	text-align: center;
+}
+/* Container */
+.container {
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+}
+
+/*Header*/
+.logo_a{
+	color: #fff;
+	font-family: "ChocolateCandyCups";
+	font-weight: normal;
+	width: 15%;
+	height: 80%;
+	float: left;
+	margin-left: 25px;
+	letter-spacing: 4px;
+}
+
+.nav{
+	width: 95%;	
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: "ChocolateCandyCups";
+	text-align: right;
+	letter-spacing: 4px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+	text-decoration: none;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+.home_back{	
+	color: #555555;
+	font-size: 14px;
+	font-family: "ChocolateCandyCups";
+	text-align: right;
+	letter-spacing: 4px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+	text-decoration: underline;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+.hero {
+	width: 86%;
+    padding: 0 7%;
+    max-width: 100%;
+	background-image:url("../images/hero.jpg");
+	margin-right: 25px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 25vh;
+	background-position: center center;
+}
+
+.header{
+	width: 100%;
+	height: 5%;
+	display: table;	
+	background-color: #D66C56;
+}
+
+/*About*/
+
+.about{
+	margin-top: 25px;
+	height: 110vh;
+}
+.image_img{
+	width: 40vh;
+	height: 100vh;
+	float: left;
+	background-image:url("../images/cover_photo.jpg");
+	margin-right: 25px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.about_p{
+	text-align: justify;
+	width: 100%;
+	height: 100%;
+}
+
+.about_a{
+	text-decoration: none;
+	color: #5C5C5C;
+	font-family: source-sans-pro;
+	font-weight: normal;
+}
+
+.about_h4{
+		display: none;
+}
+
+.about_location{
+	font-family: "Radicals";
+	color: #555555;
+	height: 20px;
+	text-align: right;
+}
+
+.about_descrip{
+	height: 45vh;
+	text-align: center;
+	display: flex;
+  	justify-content: center;
+	align-items: flex-end;	
+	font-family: "Radicals";
+	font-weight: normal;
+	color: #757575;
+}
+
+.about_me{
+	font-family: "Radicals";
+	color: #555555;
+	height: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.about_name{
+	font-family: "Radicals";
+	color: #555555;
+	height: 5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.hr{
+	margin-top: 35px;
+	width: 100%;
+    border-bottom: 1px dashed #757575;
+}
+
+.where_what{
+	text-align: center;
+    margin:0 auto;
+}
+
+.about_div{
+	width: 100%;
+	height: 100%;
+}
+
+.about_block{
+	clear: both;
+}
+
+.about_background{
+	font-family: "Radicals";
+	color: #555555;
+	text-align: center;
+}
+
+.about_have{
+	font-family: "Radicals";
+	color: #555555;
+	margin-bottom: 50px;
+}
+
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #D66C56;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+
+
+@media (max-width: 320px){
+	.container {
+		width: 95%;
+	}	
+	.logo_a{
+		color: #fff;
+		font-weight: bold;
+		width: 85%;
+		height: 100%;
+		letter-spacing: 4px;
+		text-align: center;
+	}
+
+	.nav{
+		display: none;
+	}
+	
+	.hero {
+		height: 50vh;
+	}
+	
+	/*About*/
+	.image_img{
+		display: none;
+	}
+	
+	.about_h4{
+		display: block;
+		font-weight: bold;
+	}
+}
+
+@media ( min-width : 321px ) and (max-width : 767px ){
+	.container {
+		width: 95%;
+	}
+	.logo_a{
+		color: #fff;
+		font-weight: bold;
+		width: 85%;
+		height: 100%;
+		letter-spacing: 4px;
+		text-align: center;
+	}
+
+	.nav{
+		display: none;
+	}
+	
+	.about_h4{
+		display: none;
+	}
+}
+
+@media ( min-width : 321px ) and (max-width : 550px ){
+	.image_img{
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1096px){
+	.container {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		height: 1000px;
+	}
+	.about_h4{
+		display: none;
+	}
+}
